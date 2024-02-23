@@ -115,9 +115,12 @@
 .food img {
   max-width: 100%;
 }
-a:link {
+.loc {
   text-decoration: none;
   color: white;
+}
+.loc:hover {
+  color: #414141;
 }
 .footerlinks {
   margin-top: 25px;
