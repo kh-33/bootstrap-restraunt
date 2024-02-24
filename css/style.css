@@ -63,7 +63,7 @@
   transition: all 0.5s;
 }
 .bg-one {
-  background-image: url(/images/reif-othman.webp);
+  background-image: url(./images/reif-othman.webp);
   background-size: cover;
 }
 .card1 {
