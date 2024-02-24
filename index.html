@@ -13,7 +13,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
   </head>
-  <body>
+  <body class="bg-dark">
     <nav
       class="navbar bg-dark border-bottom border-body navbar-expand-lg bg-body-tertiary fixed-top "
       data-bs-theme="dark"
@@ -143,6 +143,10 @@
         </button>
       </div>
     </div>
+    <div class="container-fluid bg-3 bg-dark shadow text-light">
+      <h4>Know Us</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem enim velit inventore aliquam corporis qui, animi dolor quia repellat debitis nulla quod, commodi, minima unde possimus soluta eveniet. Fuga, facere?</p>
+      <button class="btn btn-secondary btn2">See Menu</button></div>
     <div class="accordion" id="accordionExample">
       <div class="accordion-item">
         <h2 class="accordion-header">
@@ -155,7 +159,7 @@
             aria-controls="collapseOne"
           >
             <strong>About us</strong>
-          </button>
+          </button> 
         </h2>
         <div
           id="collapseOne"
@@ -235,6 +239,8 @@
         </div>
       </div>
     </div>
+
+
     <div class="container-fluid bg-3 text-center menu">
       <h3>Some Of Our popular Dishes</h3>
       <br />
@@ -328,7 +334,41 @@
         </div>
       </div>
     </div>
-    <br /><br />
+    <div class="container-fluid bg-dark row card1 ">
+      <div class="card bg-dark text-light col-sm-3 cardo" style="width: 20rem;">
+        <img src="./images/team.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Team</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-light bg-dark text-center text-light">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-sm-3 cardo" style="width: 20rem;">
+        <img src="./images/team1.png" style="height: 260px;" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Team</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-light bg-dark text-center text-light">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-sm-3 cardo" style="width: 20rem;">
+        <img src="./images/team2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Team</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-light bg-dark text-center text-light">Go somewhere</a>
+        </div>
+      </div>
+      <div class="card bg-dark text-light col-sm-3 cardo" style="width: 20rem;">
+        <img src="./images/team3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Our Team</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-light bg-dark text-center text-light">Go somewhere</a>
+        </div>
+      </div>
+
+    </div>
     <div class="container-fluid bg-dark end">
       <p class="text-light"> Write your order to be ready when you come ;) </p>
       <textarea class="form-control area" id="exampleFormControlTextarea1" rows="3" placeholder="What do you want to eat..?"></textarea>
@@ -370,10 +410,21 @@
           <input type="radio" name="flexRadioDefault" id="flexRadioDefault" class="form-check-input">
           <label for="flexRadioDefault" class="form-check-label" > 9pm to 12pm</label>
         </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-outline-light">Book Now</button>
+        <button type="button" class="btn btn-outline-light" type="submit">Book Now</button>
       </div>
     </div>
   </div>
@@ -381,31 +432,29 @@
     </div>
     
     <footer class="container-fluid text-center menu">
-      <div class="own position-relative">
-        <img
-          src="./images/reif-othman.webp"
-          class="rounded mx-auto d-block owner w-100"
-          alt="owner"
-        />
-        <div class="e-overlay no-margin position-absolute top-0 start-0">
-          <p>
-            <img src="./images/reif-othman.webp" class="off" alt="own" />
-            Know more about the owner
-            <ul class="unstyled-list list">
-              <li><i class="fa-brands fa-facebook ll n"></i></li>
-              <li><i class="fa-brands fa-instagram ll n"></i></li>
-              <li><i class="fa-brands fa-x-twitter ll n"></i></li>
-              <li><i class="fa-brands fa-tiktok ll n"></i><li>
-            </ul>
-          </p>
-        </div>
+      <div class="owner position-relative">
+            <div class="wrapper">
+              <div class="container">
+                <div class="child bg-one">
+                  <div class="over">
+                  <span>Our Owner</span>
+                  <ul class="unstyled-list kk list-group list-group-horizontal">
+                    <li class="list-group-item"><i class="fa-brands fa-facebook n"></i></li>
+                    <li class="list-group-item"><i class="fa-brands fa-instagram n"></i></li>
+                    <li class="list-group-item"><i class="fa-brands fa-x-twitter  n"></i></li>
+                    <li class="list-group-item list-group-item-secondary"><i class="fa-brands fa-tiktok n"></i><li>
+                  </ul>
+                </div>
+              </div>
       </div>
+      </div> 
+    </div>
       
         <div class="footerlinks">
-          <h5 style="font-family: 'Source Sans Pro', sans-serif;">Some links to help you</h5>
+          <h4  style="font-family: 'Source Sans Pro', sans-serif;">Some links to help you</h4>
           <ul class="unstyled-list">
           <li><a href="#" class="ga-bottom loc">Our location in North Coast</a></li>
-        <li><a href="#" class="ga-bottom loc">Our location in cairo</a></li>
+        <li><a href="#" class="ga-bottom loc">Our location in Cairo</a></li>
           <li><a href="#" class="ga-bottom loc">Our location in Dar Wasl</a></li>
           <li><a href="#" class="ga-bottom loc">Our location in Dubai Hills</a></li>
                  <li><a href="#" class="ga-bottom loc">
