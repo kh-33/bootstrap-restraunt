@@ -69,9 +69,11 @@
 .card1 {
   padding-top: 20px;
   margin: auto;
+  padding-bottom: 20px;
 }
 .cardo {
   margin: auto;
+  height: 500px;
 }
 
 .over {
